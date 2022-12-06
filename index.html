@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chemistry test checker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+</html>
+<header class="page__title">chemistry test checker</header>
+<body>
+    <div class="questionsBlock">
+        <form id="test" action="script.js" method="POST">
+        <ol class="questionList">
+                <li class="question" id="0">
+                    <div class="questionText" id="0">Об азоте как о простом веществе сказано в следующем предложении.</div>
+                        <ol class="answerOptions">
+                            <li class="answerOption">Растениям нужен азот для построения молекул белков.</li>
+                            <li class="answerOption">Молекула аммиака состоит из атомов азота и водорода.</li>
+                            <li class="answerOption">С минеральными удобрениями азот вносится в почву.</li>
+                            <li class="answerOption">Азотом наполняют электролампы.</li>
+                        </ol>
+                    <div>
+                        <input type="text" name="answer0" id="0" class="userAnswer" placeholder="Ваш ответ">
+                    </div>
+                    <div class="checkedAnswer" name="checkedAnswer0"></div>
+                </li>
+                <li class="question" id="1">
+                    <div class="questionText" id="1">О железе как о простом веществе говорится в следующем предложении.</div>
+                        <ol class="answerOptions">
+                            <li class="answerOption">В кожуре яблок содержится железо.</li>
+                            <li class="answerOption">Для получения железа  оксид железа(III) нагревают с углем.</li>
+                            <li class="answerOption">Железо входит в состав хлорида железа(III).</li>
+                            <li class="answerOption">При малокровии употребляют лекарства, содержащие железо.</li>
+                        </ol>
+                    <div>
+                        <input type="text" name="answer1" id="1" class="userAnswer" placeholder="Ваш ответ">
+                    </div>
+                    <div class="checkedAnswer" name="checkedAnswer0"></div>
+                </li>
+                <li class="question" id="2">
+                    <div class="questionText" id="2">Выберите два высказывания, в которых говорится о фосфоре как о химическом элементе:</div>
+                        <ol class="answerOptions">
+                            <li class="answerOption">Молекула фосфина состоит из трёх атомов водорода и одного атома фосфора</li>
+                            <li class="answerOption">Фосфор входит в состав смеси, наносимой на стенку спичечной коробки</li>
+                            <li class="answerOption">Фосфор имеет несколько аллотропных модификаций</li>
+                            <li class="answerOption">Фосфор входит в состав растительных и животных белков</li>
+                            <li class="answerOption">Чёрный фосфор обладает полупроводниковыми свойствами</li>
+                        </ol>
+                    <div>
+                        <input type="text" name="answer2" id="2" class="userAnswer" placeholder="Ваш ответ">
+                    </div>
+                    <div class="checkedAnswer" name="checkedAnswer2"></div>
+                </li>
+                <li class="question" id="3">
+                    <div class="questionText" id="3">Выберите два высказывания, в которых говорится о сере как о химическом элементе:</div>
+                        <ol class="answerOptions">
+                            <li class="answerOption">Сера входит в состав некоторых аминокислот</li>
+                            <li class="answerOption">Сера — это порошок жёлтого цвета, который не смачивается водой</li>
+                            <li class="answerOption">Молекула сероводорода состоит из двух атомов водорода и одного атома серы</li>
+                            <li class="answerOption">Сера не притягивается магнитом</li>
+                            <li class="answerOption">Серу применяют для вулканизации каучука</li>
+                        </ol>
+                    <div>
+                        <input type="text" name="answer3" id="3" class="userAnswer" placeholder="Ваш ответ">
+                    </div>
+                    <div class="checkedAnswer" name="checkedAnswer3"></div>
+                </li>
+                <li class="question" id="4">
+                    <div class="questionText" id="4">Выберите два высказывания, в которых говорится о водороде как о химическом элементе:</div>
+                        <ol class="answerOptions">
+                            <li class="answerOption">Водород входит в состав большинства органических соединений</li>
+                            <li class="answerOption">Водород — самый лёгкий газ</li>
+                            <li class="answerOption">Водородом заполняют воздушные шары</li>
+                            <li class="answerOption">Водород содержится в вулканических газах</li>
+                            <li class="answerOption">Молекула метана содержит четыре атома водорода</li>
+                        </ol>
+                    <div>
+                        <input type="text" name="answer4" id="4" class="userAnswer" placeholder="Ваш ответ">
+                    </div>
+                    <div class="checkedAnswer" name="checkedAnswer4"></div>
+                </li>
+        </ol>
+    </div>
+    <div class="userData">
+        <input type="text" name="fullname" id="user" class="dataInput" placeholder="Введите ФИО">
+    </div>
+    <div class="btn">
+        <button class="submitButton" type="submit">Отправить</button>
+    </div>
+</form>
+<script src="script.js"></script>
+</body>
+</html>
